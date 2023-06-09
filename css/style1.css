@@ -14,10 +14,37 @@
     --bg-alpha-color: rgba(31, 32, 36,0.75);
 }
 /* Reset Styles */
+html{
+    box-sizing: border-box;
+}
+*,
+*::after,
+*::before{
+    box-sizing: inherit;
+}
 body {
     font-family: "Noto Sans JP", sans-serif;
+    background-color: rgb(15, 3, 102);
+    color: aliceblue;
 }
 /* Bootstrap Styles */
+
+.navbar-brand img{
+    width: auto;
+    height: 30px;
+}
+.card-img{
+    height: 250px ;
+}
+.cp{
+    height: 50vh;
+}
+.bc{
+    color: white;
+}
+.fc{
+    color: rgb(69, 69, 69);
+}
 /* My Styles */
 
 
@@ -32,3 +59,9 @@ body {
 @media (min-width: 1200px) {  }
 @media (min-width: 1400px) {  }
 
+.introduce{
+    height: 70vh;
+}
+.introducep{
+    height: 400px;
+}
