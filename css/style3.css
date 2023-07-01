@@ -1,0 +1,9 @@
+label{
+    display: block;
+}
+form input{
+    width: 80%;
+    border-bottom: 1px;
+    border-style: none none inset none;
+}
+

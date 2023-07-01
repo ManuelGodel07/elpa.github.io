@@ -94,7 +94,7 @@ figcaption{
 }
 
 .hamburger {
-    padding: 15px 15px;
+    padding: 25px 15px;
     display: inline-block;
     cursor: pointer;
     transition-property: opacity, filter;
@@ -279,15 +279,22 @@ figcaption{
 /***********************************************************************************************/
 
 @media screen and (max-width: 480px) {
+    .mainbar{
+        height: 10vh;
+    }
     .cellphonemenu button{
         display: flex;
     }
     .cellphonemenu{
         width: 100%;
     }
+    #button-id{
+        pointer-events: none;
+    }
     .submenu{
-        background-color: gray;
-        display: none;
+        background-color: var(--third-color);
+        margin-top: 19vh;
+        display: none; 
     }
     .presentation{
         display: none;
