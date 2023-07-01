@@ -38,6 +38,17 @@ a{
     text-decoration: dotted;
     color: var(--tx-alpha-color);
 }
+
+.info{
+    height: 70vh;
+    width: 50vw;
+    margin: 0% 20% 0% 20%;
+}
+
+img{
+    height: 100%;
+    width: 100%;
+}
 /* Bootstrap Styles */
 
 .mainbar a{
@@ -73,6 +84,7 @@ footer{
     justify-content: space-around;
     text-align: center;
     padding: 0;
+    width: 70%;
 }
 .submenu2{
     display: none;
@@ -82,7 +94,7 @@ footer{
     transition: all .5s;
 }
 .we:hover{
-    margin-bottom: 20px;
+    margin-bottom: 25px;
 }
 a:hover{
     color: black;
@@ -172,6 +184,24 @@ figcaption{
 @media screen and (max-width: 1550px) {
     header{
         height: 15vh;
+    }
+    .target{
+        margin: 20px 0px;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+    }
+    .targetIMG{
+        width: 250px;
+    }
+    .targetInfor{
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction:row;
+        width: 650px;
+    }
+    .targetIMG img{
+        width: inherit;
     }
     .cellphonemenu button{
         display: none;
